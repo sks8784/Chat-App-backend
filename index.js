@@ -29,7 +29,7 @@ io.on("connection", (socket) => {
     console.log("new connection");
 
 
-    socket.on('joined', ({ user, mobile, roomID }) => {
+    socket.on('joined', ({ user, roomID }) => {
 
         socket.join(roomID);
 

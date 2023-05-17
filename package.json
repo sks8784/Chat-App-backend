@@ -4,11 +4,19 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "node index.js",
+    "start":"node index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sks8784/Chat-App-backend.git"
   },
   "author": "",
   "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sks8784/Chat-App-backend/issues"
+  },
+  "homepage": "https://github.com/sks8784/Chat-App-backend#readme",
   "dependencies": {
     "cors": "^2.8.5",
     "dotenv": "^16.0.3",
